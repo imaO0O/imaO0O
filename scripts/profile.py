@@ -38,7 +38,7 @@ README = ROOT / "README.md"
 TABLE_START = "<!--PROJECTS_START-->"
 TABLE_END = "<!--PROJECTS_END-->"
 
-W, H = 860, 348
+W, H = 860, 258
 ACCENT = "#E10600"
 
 # Порядок в таблице задаётся руками: сортировка по дате пуша выносит наверх
@@ -196,8 +196,6 @@ def build_hero(login: str, user: dict, dark: bool) -> str:
     commits = user["contributionsCollection"]["totalCommitContributions"]
     months = monthly(calendar)
     active, total_weeks, best_week = active_weeks(calendar)
-    languages = top_languages(user["repositories"]["nodes"])
-    total_size = sum(size for _, size in languages) or 1
     peak_month = max((value for _, value in months), default=0)
 
     # Числа выбраны так, чтобы не дублировать то, что GitHub и так рисует
@@ -208,10 +206,9 @@ def build_hero(login: str, user: dict, dark: bool) -> str:
         (f"{active}/{total_weeks}", "АКТИВНЫХ НЕДЕЛЬ"),
     ]
 
-    shares = ", ".join(f"{name} {round(100 * size / total_size)}%"
-                       for name, size in languages)
     alt = (f"{commits} коммитов за год, лучшая неделя {best_week}, "
-           f"активных недель {active} из {total_weeks}; языки: {shares}")
+           f"активных недель {active} из {total_weeks}, "
+           f"максимум {peak_month} за месяц")
 
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
@@ -248,28 +245,6 @@ def build_hero(login: str, user: dict, dark: bool) -> str:
         out.append(f'<text class="cap" x="{x + bar_w / 2:.1f}" y="238" '
                    f'text-anchor="middle">{label}</text>')
     out.append(f'<line class="rule" x1="0" y1="{base_y}" x2="{W}" y2="{base_y}"/>')
-
-    out.append(f'<line class="rule" x1="0" y1="262" x2="{W}" y2="262"/>')
-    out.append('<text class="lab" x="0" y="284">ЯЗЫКИ ПО ОБЪЁМУ КОДА</text>')
-
-    x = 0.0
-    for index, (name, size) in enumerate(languages):
-        segment = W * size / total_size
-        last = index == len(languages) - 1
-        width = segment if last else max(segment - 2.5, 1)
-        out.append(f'<rect x="{x:.1f}" y="294" width="{width:.1f}" height="10" '
-                   f'rx="1.5" fill="{colors["ramp"][index % len(colors["ramp"])]}"/>')
-        x += segment
-
-    # Легенда по фиксированной сетке, а не по угаданной ширине текста.
-    column = W / len(languages)
-    for index, (name, size) in enumerate(languages):
-        cx = index * column
-        out.append(f'<rect x="{cx:.1f}" y="315" width="8" height="8" rx="1.5" '
-                   f'fill="{colors["ramp"][index % len(colors["ramp"])]}"/>')
-        out.append(f'<text class="cap" x="{cx + 14:.1f}" y="322.5">'
-                   f'{name} {round(100 * size / total_size)}%</text>')
-
     out.append("</svg>")
     return "\n".join(out) + "\n"
 
@@ -347,7 +322,6 @@ def main(argv: list[str]) -> int:
     for dark, name in ((True, "hero-dark.svg"), (False, "hero-light.svg")):
         (ASSETS / name).write_text(build_hero(login, user, dark), encoding="utf-8")
     build_board_cells()
-    update_readme(user)
     print("Собрано: шапка, клетки поля, таблица проектов")
     return 0
 
