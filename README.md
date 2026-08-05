@@ -134,7 +134,7 @@
   </picture>
 </p>
 
-<p align="center"><i>змейка честно съедает ровно столько клеток, сколько я закоммитил</i></p>
+<p align="center"><i>змейка честно съедает ровно столько клеток, сколько я закоммитила</i></p>
 
 <br>
 
@@ -154,7 +154,7 @@
   <tr><td align="center" width="80" height="60"><a href="https://github.com/imaO0O/imaO0O/issues/new?title=ttt%7Cmove%7C6&body=%D0%9D%D0%B5+%D0%BC%D0%B5%D0%BD%D1%8F%D0%B9+%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BA+%E2%80%94+%D0%BF%D0%BE+%D0%BD%D0%B5%D0%BC%D1%83+%D0%B1%D0%BE%D1%82+%D0%BF%D0%BE%D0%B9%D0%BC%D1%91%D1%82+%D1%82%D0%B2%D0%BE%D0%B9+%D1%85%D0%BE%D0%B4.%0A%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE+%D0%BD%D0%B0%D0%B6%D0%BC%D0%B8+%C2%ABCreate+new+issue%C2%BB.+Issue+%D0%B7%D0%B0%D0%BA%D1%80%D0%BE%D0%B5%D1%82%D1%81%D1%8F+%D1%81%D0%B0%D0%BC%D0%B0." title="сходить сюда">⬜</a></td><td align="center" width="80" height="60"><a href="https://github.com/imaO0O/imaO0O/issues/new?title=ttt%7Cmove%7C7&body=%D0%9D%D0%B5+%D0%BC%D0%B5%D0%BD%D1%8F%D0%B9+%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BA+%E2%80%94+%D0%BF%D0%BE+%D0%BD%D0%B5%D0%BC%D1%83+%D0%B1%D0%BE%D1%82+%D0%BF%D0%BE%D0%B9%D0%BC%D1%91%D1%82+%D1%82%D0%B2%D0%BE%D0%B9+%D1%85%D0%BE%D0%B4.%0A%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE+%D0%BD%D0%B0%D0%B6%D0%BC%D0%B8+%C2%ABCreate+new+issue%C2%BB.+Issue+%D0%B7%D0%B0%D0%BA%D1%80%D0%BE%D0%B5%D1%82%D1%81%D1%8F+%D1%81%D0%B0%D0%BC%D0%B0." title="сходить сюда">⬜</a></td><td align="center" width="80" height="60"><a href="https://github.com/imaO0O/imaO0O/issues/new?title=ttt%7Cmove%7C8&body=%D0%9D%D0%B5+%D0%BC%D0%B5%D0%BD%D1%8F%D0%B9+%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BA+%E2%80%94+%D0%BF%D0%BE+%D0%BD%D0%B5%D0%BC%D1%83+%D0%B1%D0%BE%D1%82+%D0%BF%D0%BE%D0%B9%D0%BC%D1%91%D1%82+%D1%82%D0%B2%D0%BE%D0%B9+%D1%85%D0%BE%D0%B4.%0A%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE+%D0%BD%D0%B0%D0%B6%D0%BC%D0%B8+%C2%ABCreate+new+issue%C2%BB.+Issue+%D0%B7%D0%B0%D0%BA%D1%80%D0%BE%D0%B5%D1%82%D1%81%D1%8F+%D1%81%D0%B0%D0%BC%D0%B0." title="сходить сюда">⬜</a></td></tr>
 </table>
 
-<p align="center">игроки <b>0</b> : <b>1</b> бот · ничьи <b>0</b> · ход <b>№1</b></p>
+<p align="center">игроки <b>0</b> : <b>0</b> бот · ничьи <b>0</b> · ход <b>№1</b></p>
 <!--TTT_END-->
 
 <p align="center">

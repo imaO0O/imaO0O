@@ -9,6 +9,10 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    # Только при правке самого workflow — иначе змейка перерисовывалась бы
+    # после каждого хода в крестиках-ноликах и жгла минуты Actions впустую.
+    paths:
+      - ".github/workflows/snake.yml"
 
 permissions:
   contents: write

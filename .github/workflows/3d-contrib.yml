@@ -32,6 +32,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A profile-3d-contrib
           if ! git diff --cached --quiet; then
-            git commit -m "🧊 обновил 3D-календарь"
+            git commit -m "🧊 3D-календарь обновлён"
             git push
           fi

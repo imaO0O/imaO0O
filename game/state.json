@@ -3,7 +3,7 @@
   "turn": 1,
   "score": {
     "players": 0,
-    "bot": 1,
+    "bot": 0,
     "draws": 0
   },
   "last_player": null,
