@@ -1,0 +1,77 @@
+name: Tic-Tac-Toe
+
+# Игрок кликает по клетке в README -> открывается issue с заголовком
+# `ttt|move|<0-8>` (или `ttt|new`) -> этот workflow делает ход, отвечает
+# за бота, коммитит новую доску и закрывает issue.
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: tictactoe
+  cancel-in-progress: false
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'ttt|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Сделать ход
+        id: game
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          PLAYER: ${{ github.event.issue.user.login }}
+        run: |
+          set -euo pipefail
+          command="${TITLE#ttt|}"
+          action="${command%%|*}"
+          argument="${command#*|}"
+
+          if [ "$action" = "new" ]; then
+            message="$(python game/tictactoe.py new)"
+          elif [ "$action" = "move" ]; then
+            message="$(python game/tictactoe.py move "$argument" "$PLAYER")"
+          else
+            message="Не понял команду. Кликай по клеткам на профиле — заголовок подставится сам."
+          fi
+
+          {
+            echo "message<<GAME_EOF"
+            echo "$message"
+            echo "GAME_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Сохранить партию
+        env:
+          PLAYER: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md game/state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "🎮 ход от @$PLAYER"
+            git push
+          fi
+
+      - name: Ответить и закрыть issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE: ${{ github.event.issue.number }}
+          MESSAGE: ${{ steps.game.outputs.message }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          gh issue comment "$ISSUE" --body "$MESSAGE
+
+          Доска обновилась: https://github.com/$OWNER"
+          gh issue close "$ISSUE"

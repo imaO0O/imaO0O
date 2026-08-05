@@ -1,0 +1,11 @@
+{
+  "board": "         ",
+  "turn": 1,
+  "score": {
+    "players": 0,
+    "bot": 1,
+    "draws": 0
+  },
+  "last_player": null,
+  "log": []
+}

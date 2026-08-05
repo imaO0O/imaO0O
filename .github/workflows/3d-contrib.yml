@@ -1,0 +1,34 @@
+name: 3D Contributions
+
+# Опционально: рисует изометрический 3D-календарь контрибьюшенов.
+# Картинки появятся в папке profile-3d-contrib/ — вставь любую в README:
+# <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="98%" />
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Закоммитить картинки
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          if ! git diff --cached --quiet; then
+            git commit -m "🧊 обновил 3D-календарь"
+            git push
+          fi
