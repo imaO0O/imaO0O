@@ -1,0 +1,49 @@
+name: Profile
+
+# Пересобирает баннер профиля и таблицу проектов по данным GitHub API.
+# Всё считается своим скриптом и коммитится в репозиторий, поэтому картинки
+# не зависят от чужих сервисов и не превращаются в битые ссылки.
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/profile.py"
+      - "assets/fonts/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-build
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Собрать ассеты и таблицу
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/profile.py "${{ github.repository_owner }}"
+
+      - name: Закоммитить
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Профиль пересобран"
+            git pull --rebase origin main
+            git push
+          fi

@@ -26,7 +26,8 @@ README_PATH = ROOT / "README.md"
 REPO = os.environ.get("GITHUB_REPOSITORY", "imaO0O/imaO0O")
 
 HUMAN, BOT, EMPTY = "X", "O", " "
-MARK = {HUMAN: "❌", BOT: "⭕", EMPTY: "⬜"}
+CELL_ASSET = {HUMAN: "x", BOT: "o", EMPTY: "empty"}
+CELL_ALT = {HUMAN: "крестик", BOT: "нолик", EMPTY: "пустая клетка"}
 START_MARKER = "<!--TTT_START-->"
 END_MARKER = "<!--TTT_END-->"
 
@@ -122,6 +123,10 @@ def issue_url(title: str, body: str) -> str:
     return f"https://github.com/{REPO}/issues/new?{query}"
 
 
+def cell_asset(name: str) -> str:
+    return f"https://raw.githubusercontent.com/{REPO}/main/assets/board/{name}.svg"
+
+
 def move_url(index: int) -> str:
     return issue_url(
         f"ttt|move|{index}",
@@ -147,55 +152,40 @@ def render_board(state: dict) -> str:
         cells = []
         for col in range(3):
             index = row * 3 + col
-            mark = MARK[board[index]]
+            state_name = CELL_ASSET[board[index]]
+            image = (f'<img src="{cell_asset(state_name)}" width="72" height="72" '
+                     f'alt="{CELL_ALT[board[index]]}"/>')
             if board[index] == EMPTY and not finished:
-                cells.append(
-                    f'<td align="center" width="80" height="60">'
-                    f'<a href="{move_url(index)}" title="сходить сюда">{mark}</a></td>'
-                )
+                cells.append(f'<td><a href="{move_url(index)}" '
+                             f'title="сходить сюда">{image}</a></td>')
             else:
-                cells.append(
-                    f'<td align="center" width="80" height="60">{mark}</td>'
-                )
+                cells.append(f"<td>{image}</td>")
         rows.append("  <tr>" + "".join(cells) + "</tr>")
 
-    table = '<table align="center">\n' + "\n".join(rows) + "\n</table>"
+    table = "<table>\n" + "\n".join(rows) + "\n</table>"
 
-    # Внутри HTML-блоков GitHub не разбирает markdown, поэтому здесь только теги.
     if won == HUMAN:
-        headline = "🎉 <b>Человечество побеждает.</b> Бот ушёл переобучаться."
+        headline = "Партия окончена — победа за игроками."
     elif won == BOT:
-        headline = "🤖 <b>Бот выиграл.</b> Он извиняется. Наверное."
+        headline = "Партия окончена — выиграл бот."
     elif finished:
-        headline = "🤝 <b>Ничья.</b> Как обычно, когда обе стороны читали одну и ту же книжку."
+        headline = "Партия окончена — ничья."
     else:
-        headline = "Твой ход — ты за ❌. Кликни по пустой клетке."
+        headline = "Ход твой, ты играешь крестиками. Кликни по пустой клетке."
 
     score = state["score"]
     footer_bits = [
-        f"игроки <b>{score['players']}</b> : <b>{score['bot']}</b> бот",
-        f"ничьи <b>{score['draws']}</b>",
-        f"ход <b>№{state['turn']}</b>",
+        f"игроки **{score['players']}** : **{score['bot']}** бот",
+        f"ничьи **{score['draws']}**",
+        f"ход **№{state['turn']}**",
     ]
     if state.get("last_player"):
         login = state["last_player"]
-        footer_bits.append(
-            f'последний ход — <a href="https://github.com/{login}">@{login}</a>'
-        )
+        footer_bits.append(f"последний ход — [@{login}](https://github.com/{login})")
 
-    parts = [
-        "<p align=\"center\">" + headline + "</p>",
-        "",
-        table,
-        "",
-        "<p align=\"center\">" + " · ".join(footer_bits) + "</p>",
-    ]
+    parts = [headline, "", table, "", " · ".join(footer_bits)]
     if finished:
-        parts += [
-            "",
-            f'<p align="center"><a href="{new_game_url()}">'
-            "<b>▶ Начать новую партию</b></a></p>",
-        ]
+        parts += ["", f"**[Начать новую партию]({new_game_url()})**"]
     return "\n".join(parts)
 
 
