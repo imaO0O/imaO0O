@@ -26,8 +26,8 @@ README_PATH = ROOT / "README.md"
 REPO = os.environ.get("GITHUB_REPOSITORY", "imaO0O/imaO0O")
 
 HUMAN, BOT, EMPTY = "X", "O", " "
-CELL_ASSET = {HUMAN: "x", BOT: "o", EMPTY: "empty"}
-CELL_ALT = {HUMAN: "крестик", BOT: "нолик", EMPTY: "пустая клетка"}
+CELL_ASSET = {HUMAN: "x", BOT: "o", EMPTY: ""}
+CELL_ALT = {HUMAN: "крестик", BOT: "нолик", EMPTY: ""}
 START_MARKER = "<!--TTT_START-->"
 END_MARKER = "<!--TTT_END-->"
 
@@ -152,9 +152,11 @@ def render_board(state: dict) -> str:
         cells = []
         for col in range(3):
             index = row * 3 + col
-            state_name = CELL_ASSET[board[index]]
-            image = (f'<img src="{cell_asset(state_name)}" width="72" height="72" '
-                     f'alt="{CELL_ALT[board[index]]}"/>')
+            # У пустой клетки свой файл с номером — игрок видит, куда целится,
+            # и заголовок issue `ttt|move|N` перестаёт быть загадкой.
+            asset = CELL_ASSET[board[index]] or f"empty-{index}"
+            alt = CELL_ALT[board[index]] or f"клетка {index + 1}"
+            image = f'<img src="{cell_asset(asset)}" width="72" height="72" alt="{alt}"/>'
             if board[index] == EMPTY and not finished:
                 cells.append(f'<td><a href="{move_url(index)}" '
                              f'title="сходить сюда">{image}</a></td>')
