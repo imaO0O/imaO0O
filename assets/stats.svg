@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="320" viewBox="0 0 820 320" role="img" aria-label="статистика imaO0O">
+
+  <style>
+    .bg      { fill: none; stroke: #a29bfe; stroke-width: 2; }
+    .glow    { fill: #6c5ce7; opacity: .06; }
+    text     { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .title   { font-size: 15px; font-weight: 700; fill: #a29bfe; letter-spacing: 3px; }
+    .label   { font-size: 12px; fill: #8b8ba7; letter-spacing: 1px; }
+    .value   { font-size: 22px; font-weight: 700; fill: #6c5ce7; }
+    .note    { font-size: 10px; fill: #8b8ba7; }
+    .lang    { font-size: 12px; fill: #8b8ba7; }
+    .track   { fill: #8b8ba7; opacity: .22; }
+    @media (prefers-color-scheme: dark) {
+      .value { fill: #a29bfe; }
+      .label, .lang, .note { fill: #9d9dbd; }
+      .track { opacity: .16; }
+    }
+  </style>
+
+  <rect class="glow" x="1" y="1" width="818" height="318" rx="14"/>
+  <rect class="bg" x="1" y="1" width="818" height="318" rx="14"/>
+  <text class="title" x="28" y="38">PLAYER STATS · IMAO0O</text>
+  <line x1="28" y1="52" x2="792" y2="52" stroke="#a29bfe" stroke-width="1" opacity=".35"/>
+  <text class="label" x="28" y="88">COMMITS</text>
+  <text class="value" x="28" y="114">206</text>
+  <text class="note" x="28" y="130">за год</text>
+  <text class="label" x="28" y="162">PULL REQUESTS</text>
+  <text class="value" x="28" y="188">8</text>
+  <text class="note" x="28" y="204">принято в бой</text>
+  <text class="label" x="28" y="236">REPOSITORIES</text>
+  <text class="value" x="28" y="262">18</text>
+  <text class="note" x="28" y="278">проектов</text>
+  <text class="label" x="250" y="88">CONTRIBUTIONS</text>
+  <text class="value" x="250" y="114">222</text>
+  <text class="note" x="250" y="130">клеток закрашено</text>
+  <text class="label" x="250" y="162">STREAK</text>
+  <text class="value" x="250" y="188">2</text>
+  <text class="note" x="250" y="204">дней подряд · рекорд 8</text>
+  <text class="label" x="250" y="236">STARS</text>
+  <text class="value" x="250" y="262">0</text>
+  <text class="note" x="250" y="278">звёзд собрано</text>
+  <text class="label" x="460" y="88">SKILL TREE</text>
+  <text class="lang" x="460" y="116">Dart</text>
+  <text class="lang" x="792" y="116" text-anchor="end">100%</text>
+  <rect class="track" x="460" y="123" width="332" height="9" rx="4.5"/>
+  <rect x="460" y="123" width="332.0" height="9" rx="4.5" fill="#00B4AB"/>
+  <text class="lang" x="460" y="154">JavaScript</text>
+  <text class="lang" x="792" y="154" text-anchor="end">27%</text>
+  <rect class="track" x="460" y="161" width="332" height="9" rx="4.5"/>
+  <rect x="460" y="161" width="88.8" height="9" rx="4.5" fill="#f1e05a"/>
+  <text class="lang" x="460" y="192">HTML</text>
+  <text class="lang" x="792" y="192" text-anchor="end">22%</text>
+  <rect class="track" x="460" y="199" width="332" height="9" rx="4.5"/>
+  <rect x="460" y="199" width="72.7" height="9" rx="4.5" fill="#e34c26"/>
+  <text class="lang" x="460" y="230">Java</text>
+  <text class="lang" x="792" y="230" text-anchor="end">21%</text>
+  <rect class="track" x="460" y="237" width="332" height="9" rx="4.5"/>
+  <rect x="460" y="237" width="68.6" height="9" rx="4.5" fill="#b07219"/>
+  <text class="lang" x="460" y="268">Python</text>
+  <text class="lang" x="792" y="268" text-anchor="end">4%</text>
+  <rect class="track" x="460" y="275" width="332" height="9" rx="4.5"/>
+  <rect x="460" y="275" width="13.0" height="9" rx="4.5" fill="#3572A5"/>
+  <text class="note" x="28" y="302">save file updated: 05.08.2026 · автообновление раз в сутки</text>
+</svg>

@@ -104,24 +104,22 @@
 ## 📊 PLAYER STATS
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=imaO0O&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=A29BFE&icon_color=6C5CE7&text_color=9ca3af" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imaO0O&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=A29BFE&text_color=9ca3af" alt="langs" />
+  <img src="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/stats.svg" alt="статистика профиля" width="94%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=imaO0O&hide_border=true&background=00000000&ring=A29BFE&fire=6C5CE7&currStreakLabel=A29BFE&sideLabels=9ca3af&dates=6b7280&stroke=6C5CE7" alt="streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=imaO0O&bg_color=00000000&color=a29bfe&line=6c5ce7&point=ffffff&area=true&hide_border=true&custom_title=Карта%20активности" alt="activity" width="98%" />
+  <sub>карточка рисуется своим скриптом в Actions раз в сутки и лежит в этом же репозитории —<br>
+  поэтому не превращается в битую картинку, когда у очередного публичного сервиса кончается лимит</sub>
 </p>
 
 <br>
 
-## 🏆 ACHIEVEMENTS
+## 🏆 ACHIEVEMENTS UNLOCKED
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=imaO0O&theme=onedark&no-frame=true&no-bg=true&column=6&margin-w=8&margin-h=8" alt="trophies" width="98%" />
+  <img src="https://img.shields.io/badge/Pull_Shark-6C5CE7?style=for-the-badge&labelColor=12121f&logo=github&logoColor=white" alt="Pull Shark" />
+  <img src="https://img.shields.io/badge/Pair_Extraordinaire-6C5CE7?style=for-the-badge&labelColor=12121f&logo=github&logoColor=white" alt="Pair Extraordinaire" />
+  <img src="https://img.shields.io/badge/YOLO-6C5CE7?style=for-the-badge&labelColor=12121f&logo=github&logoColor=white" alt="YOLO" />
 </p>
 
 <br>
