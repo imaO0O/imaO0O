@@ -29,7 +29,7 @@
 
 # 🐾 Gitanimals
 
-<img src="https://render.gitanimals.org/lines/imaO0O" width="100%" height="120" alt="питомцы gitanimals" />
+<img src="https://render.gitanimals.org/farms/imaO0O" width="600" alt="ферма gitanimals: все питомцы" />
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
