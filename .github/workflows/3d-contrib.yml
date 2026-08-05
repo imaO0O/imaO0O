@@ -4,10 +4,13 @@ name: 3D Contributions
 # Картинки появятся в папке profile-3d-contrib/ — вставь любую в README:
 # <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="98%" />
 
+# Запускается только вручную (Actions -> 3D Contributions -> Run workflow),
+# чтобы не коммитить картинки, которые пока никуда не вставлены.
+# Если вставишь их в README — раскомментируй расписание.
 on:
-  schedule:
-    - cron: "0 3 * * *"
   workflow_dispatch:
+  # schedule:
+  #   - cron: "0 3 * * *"
 
 permissions:
   contents: write

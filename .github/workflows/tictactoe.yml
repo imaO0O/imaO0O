@@ -71,7 +71,6 @@ jobs:
           MESSAGE: ${{ steps.game.outputs.message }}
           OWNER: ${{ github.repository_owner }}
         run: |
-          gh issue comment "$ISSUE" --body "$MESSAGE
-
-          Доска обновилась: https://github.com/$OWNER"
+          printf '%s\n\nДоска обновилась: https://github.com/%s\n' "$MESSAGE" "$OWNER" > comment.md
+          gh issue comment "$ISSUE" --body-file comment.md
           gh issue close "$ISSUE"
