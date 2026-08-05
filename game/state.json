@@ -1,11 +1,16 @@
 {
-  "board": "         ",
-  "turn": 1,
+  "board": "X   O    ",
+  "turn": 3,
   "score": {
     "players": 0,
     "bot": 0,
     "draws": 0
   },
-  "last_player": null,
-  "log": []
+  "last_player": "imaO0O",
+  "log": [
+    {
+      "player": "imaO0O",
+      "cell": 0
+    }
+  ]
 }
