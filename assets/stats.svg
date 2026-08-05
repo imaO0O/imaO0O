@@ -28,7 +28,7 @@
   <text class="value" x="28" y="188">8</text>
   <text class="note" x="28" y="204">принято в бой</text>
   <text class="label" x="28" y="236">REPOSITORIES</text>
-  <text class="value" x="28" y="262">18</text>
+  <text class="value" x="28" y="262">9</text>
   <text class="note" x="28" y="278">проектов</text>
   <text class="label" x="250" y="88">CONTRIBUTIONS</text>
   <text class="value" x="250" y="114">222</text>
@@ -55,7 +55,7 @@
   <text class="lang" x="460" y="230">Java</text>
   <text class="lang" x="792" y="230" text-anchor="end">21%</text>
   <rect class="track" x="460" y="237" width="332" height="9" rx="4.5"/>
-  <rect x="460" y="237" width="68.6" height="9" rx="4.5" fill="#b07219"/>
+  <rect x="460" y="237" width="68.5" height="9" rx="4.5" fill="#b07219"/>
   <text class="lang" x="460" y="268">Python</text>
   <text class="lang" x="792" y="268" text-anchor="end">4%</text>
   <rect class="track" x="460" y="275" width="332" height="9" rx="4.5"/>
