@@ -22,7 +22,7 @@
   <text class="title" x="28" y="38">PLAYER STATS · IMAO0O</text>
   <line x1="28" y1="52" x2="792" y2="52" stroke="#a29bfe" stroke-width="1" opacity=".35"/>
   <text class="label" x="28" y="88">COMMITS</text>
-  <text class="value" x="28" y="114">206</text>
+  <text class="value" x="28" y="114">207</text>
   <text class="note" x="28" y="130">за год</text>
   <text class="label" x="28" y="162">PULL REQUESTS</text>
   <text class="value" x="28" y="188">8</text>
@@ -31,7 +31,7 @@
   <text class="value" x="28" y="262">9</text>
   <text class="note" x="28" y="278">проектов</text>
   <text class="label" x="250" y="88">CONTRIBUTIONS</text>
-  <text class="value" x="250" y="114">222</text>
+  <text class="value" x="250" y="114">223</text>
   <text class="note" x="250" y="130">клеток закрашено</text>
   <text class="label" x="250" y="162">STREAK</text>
   <text class="value" x="250" y="188">2</text>
@@ -59,6 +59,6 @@
   <text class="lang" x="460" y="268">Python</text>
   <text class="lang" x="792" y="268" text-anchor="end">4%</text>
   <rect class="track" x="460" y="275" width="332" height="9" rx="4.5"/>
-  <rect x="460" y="275" width="13.0" height="9" rx="4.5" fill="#3572A5"/>
+  <rect x="460" y="275" width="14.7" height="9" rx="4.5" fill="#3572A5"/>
   <text class="note" x="28" y="302">save file updated: 05.08.2026 · автообновление раз в сутки</text>
 </svg>
