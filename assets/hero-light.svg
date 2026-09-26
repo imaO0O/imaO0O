@@ -39,7 +39,7 @@
 <text class="cap" x="683.8" y="238" text-anchor="middle">июл</text>
 <rect x="725.0" y="142.0" width="62.5" height="78.0" rx="1.5" fill="#0B0C0E"/>
 <text class="cap" x="756.2" y="238" text-anchor="middle">авг</text>
-<rect x="797.5" y="188.3" width="62.5" height="31.7" rx="1.5" fill="#8E969C"/>
+<rect x="797.5" y="180.2" width="62.5" height="39.8" rx="1.5" fill="#8E969C"/>
 <text class="cap" x="828.8" y="238" text-anchor="middle">сен</text>
 <line class="rule" x1="0" y1="220" x2="860" y2="220"/>
 </svg>
