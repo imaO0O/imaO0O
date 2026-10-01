@@ -88,19 +88,7 @@
  "Kotlin": [
   "TSZH_Project"
  ],
- "scikit-learn": [
-  "mac-2026-hackaton",
-  "ozon-ml-champ"
- ],
  "LightGBM": [
-  "mac-2026-hackaton",
-  "ozon-ml-champ"
- ],
- "CatBoost": [
-  "mac-2026-hackaton",
-  "ozon-ml-champ"
- ],
- "pandas": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
@@ -108,10 +96,22 @@
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
- "Plotly": [
-  "mac-2026-hackaton"
+ "pandas": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "scikit-learn": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "CatBoost": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
  ],
  "Streamlit": [
+  "mac-2026-hackaton"
+ ],
+ "Plotly": [
   "mac-2026-hackaton"
  ],
  "Jupyter": [
@@ -123,10 +123,10 @@
  "Polars": [
   "ozon-ml-champ"
  ],
- "BLoC": [
+ "Flutter": [
   "citrus-app"
  ],
- "Flutter": [
+ "BLoC": [
   "citrus-app"
  ],
  "Android": [],
@@ -143,12 +143,12 @@
  "Figma": [],
  "IntelliJ IDEA": [],
  "VS Code": [],
- "Vite": [
+ "React": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
  ],
- "React": [
+ "Vite": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
