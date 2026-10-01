@@ -1,6 +1,8 @@
 name: Profile
 
-# Пересобирает баннер профиля и таблицу проектов по данным GitHub API.
+# Пересобирает шапку, панель стека и подписи разделов по данным GitHub API.
+# Стек распознаётся по манифестам публичных репозиториев, поэтому новый
+# проект попадает в профиль сам — на следующей ночной сборке.
 # Всё считается своим скриптом и коммитится в репозиторий, поэтому картинки
 # не зависят от чужих сервисов и не превращаются в битые ссылки.
 
@@ -13,6 +15,7 @@ on:
     paths:
       - "scripts/profile.py"
       - "assets/fonts/**"
+      - "assets/icons/**"
       - ".github/workflows/profile.yml"
 
 permissions:
@@ -32,7 +35,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Собрать ассеты и таблицу
+      - name: Собрать шапку, стек и подписи
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/profile.py "${{ github.repository_owner }}"

@@ -1,0 +1,167 @@
+{
+ "Spring Boot": [
+  "TSZH_Project",
+  "job-aggregator",
+  "mental-health"
+ ],
+ "PostgreSQL": [
+  "citrus-app",
+  "job-aggregator",
+  "mental-health"
+ ],
+ "Node.js": [
+  "max-hackaton"
+ ],
+ "Fastify": [
+  "max-hackaton"
+ ],
+ "Liquibase": [
+  "job-aggregator"
+ ],
+ "Dart Frog": [
+  "citrus-app"
+ ],
+ "MS SQL Server": [
+  "TSZH_Project"
+ ],
+ "Telegram Bot API": [
+  "KalinaBot",
+  "survey-and-notification-bot"
+ ],
+ "MAX Bot API": [
+  "max-hackaton"
+ ],
+ "Unity": [
+  "game-rpg"
+ ],
+ "libGDX": [
+  "ZombieInstitute"
+ ],
+ "GitHub Actions": [
+  "citrus-app",
+  "ferrari-strategy",
+  "mac-2026-hackaton",
+  "max-hackaton"
+ ],
+ "Docker": [
+  "citrus-app",
+  "job-aggregator",
+  "max-hackaton"
+ ],
+ "Gradle": [
+  "TSZH_Project",
+  "ZombieInstitute",
+  "job-aggregator"
+ ],
+ "Maven": [
+  "KalinaBot",
+  "mental-health"
+ ],
+ "Caddy": [
+  "max-hackaton"
+ ],
+ "Java": [
+  "KalinaBot",
+  "ZombieInstitute",
+  "coderun-mysolution",
+  "job-aggregator",
+  "mental-health"
+ ],
+ "Python": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ",
+  "survey-and-notification-bot"
+ ],
+ "JavaScript": [
+  "ferrari-strategy",
+  "max-hackaton"
+ ],
+ "C#": [
+  "game-rpg"
+ ],
+ "Dart": [
+  "citrus-app"
+ ],
+ "TypeScript": [
+  "Mentalhealthmonitoringappfront"
+ ],
+ "Kotlin": [
+  "TSZH_Project"
+ ],
+ "scikit-learn": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "LightGBM": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "CatBoost": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "pandas": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "NumPy": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "Plotly": [
+  "mac-2026-hackaton"
+ ],
+ "Streamlit": [
+  "mac-2026-hackaton"
+ ],
+ "Jupyter": [
+  "ozon-ml-champ"
+ ],
+ "PyTorch": [
+  "ozon-ml-champ"
+ ],
+ "Polars": [
+  "ozon-ml-champ"
+ ],
+ "BLoC": [
+  "citrus-app"
+ ],
+ "Flutter": [
+  "citrus-app"
+ ],
+ "Android": [],
+ "pytest": [
+  "mac-2026-hackaton"
+ ],
+ "Testcontainers": [
+  "job-aggregator"
+ ],
+ "Vitest": [
+  "ferrari-strategy"
+ ],
+ "Git": [],
+ "Figma": [],
+ "IntelliJ IDEA": [],
+ "VS Code": [],
+ "Vite": [
+  "Mentalhealthmonitoringappfront",
+  "ferrari-strategy",
+  "max-hackaton"
+ ],
+ "React": [
+  "Mentalhealthmonitoringappfront",
+  "ferrari-strategy",
+  "max-hackaton"
+ ],
+ "HTML": [
+  "game-rpg",
+  "mental-health"
+ ],
+ "Tailwind CSS": [
+  "Mentalhealthmonitoringappfront",
+  "ferrari-strategy"
+ ],
+ "Three.js": [
+  "ferrari-strategy"
+ ]
+}

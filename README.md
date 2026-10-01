@@ -4,40 +4,59 @@
   <img src="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/hero-dark.svg" alt="Активность за год" width="100%" />
 </picture>
 
-# 💻 Tech Stack:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/stack-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/stack-light.svg" />
+  <img src="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/stack-dark.svg" alt="Стек, собранный из кода репозиториев" width="100%" />
+</picture>
 
-#### Языки
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/section-stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/section-stats-light.svg" />
+  <img src="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/section-stats-dark.svg" alt="Статистика" width="100%" />
+</picture>
 
-#### Мобильная разработка
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![BLoC](https://img.shields.io/badge/BLoC-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.shion.dev/api?username=imaO0O&locale=ru&show_icons=true&hide_title=true&hide_border=true&disable_animations=true&card_width=420&bg_color=00000000&text_color=F2F3F5&icon_color=9BA3AA&ring_color=E10600" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.shion.dev/api?username=imaO0O&locale=ru&show_icons=true&hide_title=true&hide_border=true&disable_animations=true&card_width=420&bg_color=00000000&text_color=0B0C0E&icon_color=5A6268&ring_color=E10600" />
+  <img src="https://github-readme-stats.shion.dev/api?username=imaO0O&locale=ru&show_icons=true&hide_title=true&hide_border=true&disable_animations=true&card_width=420&bg_color=00000000&text_color=F2F3F5&icon_color=9BA3AA&ring_color=E10600" alt="Статистика GitHub" width="52.5%" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=imaO0O&locale=ru&hide_border=true&disable_animations=true&card_width=394&card_height=170&background=00000000&stroke=2A313A&ring=E10600&fire=E10600&currStreakNum=F2F3F5&sideNums=F2F3F5&currStreakLabel=F2F3F5&sideLabels=9BA3AA&dates=9BA3AA" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=imaO0O&locale=ru&hide_border=true&disable_animations=true&card_width=394&card_height=170&background=00000000&stroke=D8DDE3&ring=E10600&fire=E10600&currStreakNum=0B0C0E&sideNums=0B0C0E&currStreakLabel=0B0C0E&sideLabels=5A6268&dates=5A6268" />
+  <img src="https://streak-stats.demolab.com/?user=imaO0O&locale=ru&hide_border=true&disable_animations=true&card_width=394&card_height=170&background=00000000&stroke=2A313A&ring=E10600&fire=E10600&currStreakNum=F2F3F5&sideNums=F2F3F5&currStreakLabel=F2F3F5&sideLabels=9BA3AA&dates=9BA3AA" alt="Серия контрибуций" width="46%" />
+</picture>
 
-#### Веб
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Three.js](https://img.shields.io/badge/three.js-black?style=for-the-badge&logo=three.js&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.shion.dev/api/top-langs/?username=imaO0O&locale=ru&layout=compact&hide_title=true&hide_border=true&card_width=860&langs_count=8&exclude_repo=imaO0O&hide=shaderlab&bg_color=00000000&text_color=9BA3AA" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.shion.dev/api/top-langs/?username=imaO0O&locale=ru&layout=compact&hide_title=true&hide_border=true&card_width=860&langs_count=8&exclude_repo=imaO0O&hide=shaderlab&bg_color=00000000&text_color=5A6268" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=imaO0O&locale=ru&layout=compact&hide_title=true&hide_border=true&card_width=860&langs_count=8&exclude_repo=imaO0O&hide=shaderlab&bg_color=00000000&text_color=9BA3AA" alt="Языки по объёму кода" width="100%" />
+</picture>
 
-#### Бэкенд и базы данных
-![Spring Boot](https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/section-farm-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/section-farm-light.svg" />
+  <img src="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/section-farm-dark.svg" alt="Ферма" width="100%" />
+</picture>
 
-#### Боты и автоматизация
-![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+<p align="center">
+  <img src="https://render.gitanimals.org/farms/imaO0O" width="600" alt="Ферма gitanimals" />
+</p>
 
-#### Инструменты
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white) ![Maven](https://img.shields.io/badge/apachemaven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/section-quote-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/section-quote-light.svg" />
+  <img src="https://raw.githubusercontent.com/imaO0O/imaO0O/main/assets/section-quote-dark.svg" alt="Цитата" width="100%" />
+</picture>
 
-# 📊 GitHub Stats:
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=00000000&quoteColor=F2F3F5&authorColor=9BA3AA&symbolColor=E10600" />
+  <source media="(prefers-color-scheme: light)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=00000000&quoteColor=0B0C0E&authorColor=5A6268&symbolColor=E10600" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=00000000&quoteColor=F2F3F5&authorColor=9BA3AA&symbolColor=E10600" alt="Случайная цитата о разработке" width="600" />
+</picture>
+</p>
 
-![](https://github-readme-stats.shion.dev/api?username=imaO0O&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=imaO0O&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=imaO0O&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-# 🐾 Gitanimals
-
-<img src="https://render.gitanimals.org/farms/imaO0O" width="600" alt="ферма gitanimals: все питомцы" />
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-
-
----
-[![](https://komarev.com/ghpvc/?username=imaO0O&icon=0&color=0)](https://visitcount.itsvg.in)
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=imaO0O&style=flat-square&color=5A6268" alt="Просмотры профиля" />
+</p>
