@@ -21,25 +21,24 @@
 <line class="rule" x1="0" y1="104" x2="860" y2="104"/>
 <text class="lab" x="0" y="126">АКТИВНОСТЬ ПО МЕСЯЦАМ</text>
 <text class="cap" x="860" y="126" text-anchor="end">максимум 467 за месяц</text>
-<rect x="0.0" y="219.3" width="62.5" height="0.7" rx="1.5" fill="#8E969C"/>
-<text class="cap" x="31.2" y="238" text-anchor="middle">окт</text>
-<text class="cap" x="103.8" y="238" text-anchor="middle">ноя</text>
-<text class="cap" x="176.2" y="238" text-anchor="middle">дек</text>
-<text class="cap" x="248.8" y="238" text-anchor="middle">янв</text>
-<text class="cap" x="321.2" y="238" text-anchor="middle">фев</text>
-<rect x="362.5" y="217.8" width="62.5" height="2.2" rx="1.5" fill="#8E969C"/>
-<text class="cap" x="393.8" y="238" text-anchor="middle">мар</text>
-<rect x="435.0" y="215.0" width="62.5" height="5.0" rx="1.5" fill="#8E969C"/>
-<text class="cap" x="466.2" y="238" text-anchor="middle">апр</text>
-<rect x="507.5" y="217.2" width="62.5" height="2.8" rx="1.5" fill="#8E969C"/>
-<text class="cap" x="538.8" y="238" text-anchor="middle">май</text>
-<rect x="580.0" y="208.3" width="62.5" height="11.7" rx="1.5" fill="#8E969C"/>
-<text class="cap" x="611.2" y="238" text-anchor="middle">июн</text>
-<rect x="652.5" y="201.0" width="62.5" height="19.0" rx="1.5" fill="#8E969C"/>
-<text class="cap" x="683.8" y="238" text-anchor="middle">июл</text>
-<rect x="725.0" y="142.0" width="62.5" height="78.0" rx="1.5" fill="#0B0C0E"/>
-<text class="cap" x="756.2" y="238" text-anchor="middle">авг</text>
-<rect x="797.5" y="175.2" width="62.5" height="44.8" rx="1.5" fill="#8E969C"/>
-<text class="cap" x="828.8" y="238" text-anchor="middle">сен</text>
+<text class="cap" x="31.2" y="238" text-anchor="middle">ноя</text>
+<text class="cap" x="103.8" y="238" text-anchor="middle">дек</text>
+<text class="cap" x="176.2" y="238" text-anchor="middle">янв</text>
+<text class="cap" x="248.8" y="238" text-anchor="middle">фев</text>
+<rect x="290.0" y="217.8" width="62.5" height="2.2" rx="1.5" fill="#8E969C"/>
+<text class="cap" x="321.2" y="238" text-anchor="middle">мар</text>
+<rect x="362.5" y="215.0" width="62.5" height="5.0" rx="1.5" fill="#8E969C"/>
+<text class="cap" x="393.8" y="238" text-anchor="middle">апр</text>
+<rect x="435.0" y="217.2" width="62.5" height="2.8" rx="1.5" fill="#8E969C"/>
+<text class="cap" x="466.2" y="238" text-anchor="middle">май</text>
+<rect x="507.5" y="208.3" width="62.5" height="11.7" rx="1.5" fill="#8E969C"/>
+<text class="cap" x="538.8" y="238" text-anchor="middle">июн</text>
+<rect x="580.0" y="201.0" width="62.5" height="19.0" rx="1.5" fill="#8E969C"/>
+<text class="cap" x="611.2" y="238" text-anchor="middle">июл</text>
+<rect x="652.5" y="142.0" width="62.5" height="78.0" rx="1.5" fill="#0B0C0E"/>
+<text class="cap" x="683.8" y="238" text-anchor="middle">авг</text>
+<rect x="725.0" y="175.2" width="62.5" height="44.8" rx="1.5" fill="#8E969C"/>
+<text class="cap" x="756.2" y="238" text-anchor="middle">сен</text>
+<text class="cap" x="828.8" y="238" text-anchor="middle">окт</text>
 <line class="rule" x1="0" y1="220" x2="860" y2="220"/>
 </svg>
