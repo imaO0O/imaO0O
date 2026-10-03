@@ -1,18 +1,18 @@
 {
- "Spring Boot": [
-  "TSZH_Project",
-  "job-aggregator",
-  "mental-health"
- ],
  "PostgreSQL": [
   "citrus-app",
   "job-aggregator",
   "mental-health"
  ],
- "Node.js": [
-  "max-hackaton"
+ "Spring Boot": [
+  "TSZH_Project",
+  "job-aggregator",
+  "mental-health"
  ],
  "Fastify": [
+  "max-hackaton"
+ ],
+ "Node.js": [
   "max-hackaton"
  ],
  "Liquibase": [
@@ -88,6 +88,14 @@
  "Kotlin": [
   "TSZH_Project"
  ],
+ "NumPy": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "CatBoost": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
  "LightGBM": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
@@ -97,14 +105,6 @@
   "ozon-ml-champ"
  ],
  "pandas": [
-  "mac-2026-hackaton",
-  "ozon-ml-champ"
- ],
- "CatBoost": [
-  "mac-2026-hackaton",
-  "ozon-ml-champ"
- ],
- "NumPy": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
@@ -123,10 +123,10 @@
  "Polars": [
   "ozon-ml-champ"
  ],
- "BLoC": [
+ "Flutter": [
   "citrus-app"
  ],
- "Flutter": [
+ "BLoC": [
   "citrus-app"
  ],
  "Android": [],
