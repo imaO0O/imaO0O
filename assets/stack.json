@@ -88,14 +88,6 @@
  "Kotlin": [
   "TSZH_Project"
  ],
- "NumPy": [
-  "mac-2026-hackaton",
-  "ozon-ml-champ"
- ],
- "scikit-learn": [
-  "mac-2026-hackaton",
-  "ozon-ml-champ"
- ],
  "CatBoost": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
@@ -105,6 +97,14 @@
   "ozon-ml-champ"
  ],
  "pandas": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "NumPy": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "scikit-learn": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
@@ -123,10 +123,10 @@
  "Polars": [
   "ozon-ml-champ"
  ],
- "BLoC": [
+ "Flutter": [
   "citrus-app"
  ],
- "Flutter": [
+ "BLoC": [
   "citrus-app"
  ],
  "Android": [],
