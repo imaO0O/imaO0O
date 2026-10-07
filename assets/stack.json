@@ -1,18 +1,18 @@
 {
- "PostgreSQL": [
-  "citrus-app",
-  "job-aggregator",
-  "mental-health"
- ],
  "Spring Boot": [
   "TSZH_Project",
   "job-aggregator",
   "mental-health"
  ],
- "Fastify": [
-  "max-hackaton"
+ "PostgreSQL": [
+  "citrus-app",
+  "job-aggregator",
+  "mental-health"
  ],
  "Node.js": [
+  "max-hackaton"
+ ],
+ "Fastify": [
   "max-hackaton"
  ],
  "Liquibase": [
@@ -88,15 +88,15 @@
  "Kotlin": [
   "TSZH_Project"
  ],
- "pandas": [
-  "mac-2026-hackaton",
-  "ozon-ml-champ"
- ],
  "LightGBM": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
  "scikit-learn": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "pandas": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
@@ -108,10 +108,10 @@
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
- "Streamlit": [
+ "Plotly": [
   "mac-2026-hackaton"
  ],
- "Plotly": [
+ "Streamlit": [
   "mac-2026-hackaton"
  ],
  "Jupyter": [
@@ -123,10 +123,10 @@
  "Polars": [
   "ozon-ml-champ"
  ],
- "Flutter": [
+ "BLoC": [
   "citrus-app"
  ],
- "BLoC": [
+ "Flutter": [
   "citrus-app"
  ],
  "Android": [],
@@ -143,12 +143,12 @@
  "Figma": [],
  "IntelliJ IDEA": [],
  "VS Code": [],
- "React": [
+ "Vite": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
  ],
- "Vite": [
+ "React": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
