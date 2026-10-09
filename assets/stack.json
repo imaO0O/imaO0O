@@ -1,11 +1,11 @@
 {
- "PostgreSQL": [
-  "citrus-app",
+ "Spring Boot": [
+  "TSZH_Project",
   "job-aggregator",
   "mental-health"
  ],
- "Spring Boot": [
-  "TSZH_Project",
+ "PostgreSQL": [
+  "citrus-app",
   "job-aggregator",
   "mental-health"
  ],
@@ -88,11 +88,11 @@
  "Kotlin": [
   "TSZH_Project"
  ],
- "scikit-learn": [
+ "CatBoost": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
- "CatBoost": [
+ "pandas": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
@@ -104,14 +104,14 @@
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
- "pandas": [
+ "scikit-learn": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
- "Plotly": [
+ "Streamlit": [
   "mac-2026-hackaton"
  ],
- "Streamlit": [
+ "Plotly": [
   "mac-2026-hackaton"
  ],
  "Jupyter": [
@@ -143,12 +143,12 @@
  "Figma": [],
  "IntelliJ IDEA": [],
  "VS Code": [],
- "Vite": [
+ "React": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
  ],
- "React": [
+ "Vite": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
