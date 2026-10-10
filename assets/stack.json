@@ -9,10 +9,10 @@
   "job-aggregator",
   "mental-health"
  ],
- "Fastify": [
+ "Node.js": [
   "max-hackaton"
  ],
- "Node.js": [
+ "Fastify": [
   "max-hackaton"
  ],
  "Liquibase": [
@@ -88,14 +88,6 @@
  "Kotlin": [
   "TSZH_Project"
  ],
- "CatBoost": [
-  "mac-2026-hackaton",
-  "ozon-ml-champ"
- ],
- "pandas": [
-  "mac-2026-hackaton",
-  "ozon-ml-champ"
- ],
  "NumPy": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
@@ -108,10 +100,18 @@
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
- "Streamlit": [
-  "mac-2026-hackaton"
+ "CatBoost": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "pandas": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
  ],
  "Plotly": [
+  "mac-2026-hackaton"
+ ],
+ "Streamlit": [
   "mac-2026-hackaton"
  ],
  "Jupyter": [
@@ -123,10 +123,10 @@
  "Polars": [
   "ozon-ml-champ"
  ],
- "BLoC": [
+ "Flutter": [
   "citrus-app"
  ],
- "Flutter": [
+ "BLoC": [
   "citrus-app"
  ],
  "Android": [],
