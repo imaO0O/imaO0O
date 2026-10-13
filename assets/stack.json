@@ -109,11 +109,11 @@
   "mac-2026-hackaton",
   "vtb"
  ],
- "CatBoost": [
+ "LightGBM": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
- "LightGBM": [
+ "CatBoost": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
