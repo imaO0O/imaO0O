@@ -1,18 +1,18 @@
 {
- "PostgreSQL": [
-  "citrus-app",
-  "job-aggregator",
-  "mental-health"
- ],
  "Spring Boot": [
   "TSZH_Project",
   "job-aggregator",
   "mental-health"
  ],
- "Node.js": [
-  "max-hackaton"
+ "PostgreSQL": [
+  "citrus-app",
+  "job-aggregator",
+  "mental-health"
  ],
  "Fastify": [
+  "max-hackaton"
+ ],
+ "Node.js": [
   "max-hackaton"
  ],
  "Liquibase": [
@@ -109,7 +109,7 @@
   "mac-2026-hackaton",
   "vtb"
  ],
- "scikit-learn": [
+ "LightGBM": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
@@ -117,7 +117,7 @@
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
- "LightGBM": [
+ "scikit-learn": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
