@@ -1,18 +1,18 @@
 {
- "PostgreSQL": [
-  "citrus-app",
-  "job-aggregator",
-  "mental-health"
- ],
  "Spring Boot": [
   "TSZH_Project",
   "job-aggregator",
   "mental-health"
  ],
- "Node.js": [
-  "max-hackaton"
+ "PostgreSQL": [
+  "citrus-app",
+  "job-aggregator",
+  "mental-health"
  ],
  "Fastify": [
+  "max-hackaton"
+ ],
+ "Node.js": [
   "max-hackaton"
  ],
  "Liquibase": [
@@ -133,10 +133,10 @@
  "Polars": [
   "ozon-ml-champ"
  ],
- "BLoC": [
+ "Flutter": [
   "citrus-app"
  ],
- "Flutter": [
+ "BLoC": [
   "citrus-app"
  ],
  "Android": [],
@@ -155,12 +155,12 @@
  "Figma": [],
  "IntelliJ IDEA": [],
  "VS Code": [],
- "React": [
+ "Vite": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
  ],
- "Vite": [
+ "React": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
