@@ -9,10 +9,10 @@
   "job-aggregator",
   "mental-health"
  ],
- "Node.js": [
+ "Fastify": [
   "max-hackaton"
  ],
- "Fastify": [
+ "Node.js": [
   "max-hackaton"
  ],
  "Liquibase": [
@@ -155,12 +155,12 @@
  "Figma": [],
  "IntelliJ IDEA": [],
  "VS Code": [],
- "Vite": [
+ "React": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
  ],
- "React": [
+ "Vite": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
