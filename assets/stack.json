@@ -1,11 +1,11 @@
 {
- "PostgreSQL": [
-  "citrus-app",
+ "Spring Boot": [
+  "TSZH_Project",
   "job-aggregator",
   "mental-health"
  ],
- "Spring Boot": [
-  "TSZH_Project",
+ "PostgreSQL": [
+  "citrus-app",
   "job-aggregator",
   "mental-health"
  ],
@@ -92,13 +92,13 @@
  "Kotlin": [
   "TSZH_Project"
  ],
- "NumPy": [
+ "pandas": [
   "acselerator",
   "mac-2026-hackaton",
   "ozon-ml-champ",
   "vtb"
  ],
- "pandas": [
+ "NumPy": [
   "acselerator",
   "mac-2026-hackaton",
   "ozon-ml-champ",
