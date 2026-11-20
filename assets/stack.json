@@ -1,11 +1,11 @@
 {
- "Spring Boot": [
-  "TSZH_Project",
+ "PostgreSQL": [
+  "citrus-app",
   "job-aggregator",
   "mental-health"
  ],
- "PostgreSQL": [
-  "citrus-app",
+ "Spring Boot": [
+  "TSZH_Project",
   "job-aggregator",
   "mental-health"
  ],
@@ -133,10 +133,10 @@
  "Polars": [
   "ozon-ml-champ"
  ],
- "Flutter": [
+ "BLoC": [
   "citrus-app"
  ],
- "BLoC": [
+ "Flutter": [
   "citrus-app"
  ],
  "Android": [],
@@ -155,12 +155,12 @@
  "Figma": [],
  "IntelliJ IDEA": [],
  "VS Code": [],
- "React": [
+ "Vite": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
  ],
- "Vite": [
+ "React": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
