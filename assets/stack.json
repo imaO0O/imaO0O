@@ -1,12 +1,10 @@
 {
  "PostgreSQL": [
   "citrus-app",
-  "job-aggregator",
   "mental-health"
  ],
  "Spring Boot": [
   "TSZH_Project",
-  "job-aggregator",
   "mental-health"
  ],
  "Node.js": [
@@ -14,9 +12,6 @@
  ],
  "Fastify": [
   "max-hackaton"
- ],
- "Liquibase": [
-  "job-aggregator"
  ],
  "Dart Frog": [
   "citrus-app"
@@ -47,17 +42,15 @@
  ],
  "Docker": [
   "citrus-app",
-  "job-aggregator",
   "max-hackaton"
- ],
- "Gradle": [
-  "TSZH_Project",
-  "ZombieInstitute",
-  "job-aggregator"
  ],
  "Maven": [
   "KalinaBot",
   "mental-health"
+ ],
+ "Gradle": [
+  "TSZH_Project",
+  "ZombieInstitute"
  ],
  "Caddy": [
   "max-hackaton"
@@ -73,7 +66,6 @@
   "KalinaBot",
   "ZombieInstitute",
   "coderun-mysolution",
-  "job-aggregator",
   "mental-health"
  ],
  "JavaScript": [
@@ -92,13 +84,13 @@
  "Kotlin": [
   "TSZH_Project"
  ],
- "pandas": [
+ "NumPy": [
   "acselerator",
   "mac-2026-hackaton",
   "ozon-ml-champ",
   "vtb"
  ],
- "NumPy": [
+ "pandas": [
   "acselerator",
   "mac-2026-hackaton",
   "ozon-ml-champ",
@@ -109,15 +101,15 @@
   "mac-2026-hackaton",
   "vtb"
  ],
- "scikit-learn": [
-  "mac-2026-hackaton",
-  "ozon-ml-champ"
- ],
  "CatBoost": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
  "LightGBM": [
+  "mac-2026-hackaton",
+  "ozon-ml-champ"
+ ],
+ "scikit-learn": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
@@ -144,9 +136,6 @@
   "acselerator",
   "mac-2026-hackaton",
   "vtb"
- ],
- "Testcontainers": [
-  "job-aggregator"
  ],
  "Vitest": [
   "ferrari-strategy"
