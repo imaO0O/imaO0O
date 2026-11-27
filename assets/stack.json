@@ -7,10 +7,10 @@
   "TSZH_Project",
   "mental-health"
  ],
- "Node.js": [
+ "Fastify": [
   "max-hackaton"
  ],
- "Fastify": [
+ "Node.js": [
   "max-hackaton"
  ],
  "Dart Frog": [
@@ -84,13 +84,13 @@
  "Kotlin": [
   "TSZH_Project"
  ],
- "NumPy": [
+ "pandas": [
   "acselerator",
   "mac-2026-hackaton",
   "ozon-ml-champ",
   "vtb"
  ],
- "pandas": [
+ "NumPy": [
   "acselerator",
   "mac-2026-hackaton",
   "ozon-ml-champ",
@@ -101,11 +101,11 @@
   "mac-2026-hackaton",
   "vtb"
  ],
- "CatBoost": [
+ "LightGBM": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
- "LightGBM": [
+ "CatBoost": [
   "mac-2026-hackaton",
   "ozon-ml-champ"
  ],
@@ -125,10 +125,10 @@
  "Polars": [
   "ozon-ml-champ"
  ],
- "BLoC": [
+ "Flutter": [
   "citrus-app"
  ],
- "Flutter": [
+ "BLoC": [
   "citrus-app"
  ],
  "Android": [],
@@ -144,12 +144,12 @@
  "Figma": [],
  "IntelliJ IDEA": [],
  "VS Code": [],
- "React": [
+ "Vite": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
  ],
- "Vite": [
+ "React": [
   "Mentalhealthmonitoringappfront",
   "ferrari-strategy",
   "max-hackaton"
